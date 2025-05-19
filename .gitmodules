@@ -1,0 +1,3 @@
+[submodule "Drivers/tm1638_led8keys_sm"]
+	path = Drivers/tm1638_led8keys_sm
+	url = git@github.com:bazhen-paseka/tm1638_led8keys_sm.git

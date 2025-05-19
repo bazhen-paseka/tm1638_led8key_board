@@ -57,10 +57,16 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define BUTTON_Pin GPIO_PIN_0
-#define BUTTON_GPIO_Port GPIOA
+#define debug_Pin GPIO_PIN_2
+#define debug_GPIO_Port GPIOA
 #define LED_Pin GPIO_PIN_2
 #define LED_GPIO_Port GPIOB
+#define TM1638_DIO_Pin GPIO_PIN_7
+#define TM1638_DIO_GPIO_Port GPIOB
+#define TM1638_CLK_Pin GPIO_PIN_8
+#define TM1638_CLK_GPIO_Port GPIOB
+#define TM1638_STB_Pin GPIO_PIN_9
+#define TM1638_STB_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
